@@ -1,0 +1,1077 @@
+body{
+	background-color: #fff;
+}
+.a{
+	display: none;
+}
+
+
+
+
+/*DIV NAVBAR*/
+.navbar{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border-bottom: solid 6px #1471CE; 
+	font-size: 17px;
+	margin-bottom: 0%;
+}
+.navbar li{
+	cursor: pointer;
+}
+.navbar li:hover a:hover{
+	color: #000;
+	background-color: #ddd;
+	transition-duration: 0.5s;
+}
+.img-logo{
+	width: 60px;
+	height: 50px;
+}
+/*FIN DIV NAVBAR*/
+
+
+
+
+
+
+
+
+
+
+
+/*BUTTON GO UP*/
+.go-up {
+	display: none;
+	padding: 8px;
+	background: transparent;
+	font-size: 40px;
+	color: #aaa;
+	cursor: pointer;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+.go-up:hover {
+	color: #555;
+	transition-duration: 0.3s;
+}
+/*FIN BUTTON GO UP*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.control-button-collapse{
+ 	background-color:#fff;
+ 	margin-left: 80%;
+ 	position: relative;
+ 	z-index: 99;
+ 	font-size: 20px;
+ 	width: 10%;
+}
+.control-button-collapse a{
+	color: #000;
+	background-color: transparent;
+}
+.control-button-collapse a:hover{
+	background-color: #fff;
+}
+
+
+
+.control-button-collapse a:hover > li{
+	display: block;
+	position: relative;
+}
+
+*/
+
+
+.dropdown{
+	float: left;
+	margin-right: 50px;
+}
+.img-drowpdown{
+	padding: 0px;
+	height: 19px;
+	width: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV SLIDER*/
+.content-div-slider{
+	height: 613px;
+
+}
+.div-slider-social-network{
+	width: 0%;
+	float: left;
+}
+.icon-slider-social-network{
+	width: 15px;
+	height: 15px;
+}
+.content-div-slider .description{
+
+	color: #000000;
+
+}
+/*FIN DIV SLIDER*/
+/*
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation: change 9s infinite alternate;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+	height: 600px;
+	
+}
+@keyframes change {
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	35%{margin-left: -100%;}
+	65%{margin-left: -100%;}
+
+	80%{margin-left: -200%;}
+	100%{margin-left: -200%;}	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-div-0{
+	display: none;
+	width: 100%;
+	background-color: #fff;
+	float: left;
+	padding-bottom: 3%;
+}
+.title-services{
+	margin-bottom: 3%;
+}
+.text-services-description{
+	width: 30%;
+	margin-left: 15%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	float: left;
+	text-align: justify;	
+}
+.buttons-services-description{
+	float: left;
+	margin-right: 1%;
+	width: 100px;
+}
+.text-return-services{
+	float: left;
+}
+.video-bigdata-description{
+	width: 40%;
+	height: 300px; 
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV MÓDULOS*/
+.content-div-1{
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+}
+.col-xs-3{
+	float: left;
+}
+.thumbnail{
+	background-color: #fff;
+	border: solid 1px #000;
+	border-radius: 0px;
+	padding-top: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 5%;
+	height: 350px;
+}
+.text-into-thumbnail{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+.div-button-modules{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.div-content-img{
+	width: 100%;
+	height: 50%;
+}
+.img-modules{
+	width: 100%;
+	height: 100%;
+}
+/*FIN DIV MÓDULOS*/
+
+
+
+
+
+
+
+
+
+.content-div-2{
+	width: 100%;
+	background-image: url(http://www.scale.fund/uploads/8/3/0/1/83019278/big-data_orig.jpg);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-2{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	background-color: #fff;
+	background: linear-gradient(to right, #fff) ;
+}
+.text-analisis-description{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+	text-align: justify;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV COMUNIQUESE CON KBI*/
+.content-div-4{
+	width: 100%;
+	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-4{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+}
+.div-network{
+	width: 40%;
+	float: right;
+	margin-top: 32%;
+}
+.button-img-contact{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+}
+.buttons-network{
+	width: 20%;
+	margin-top: 1%;
+}
+/*FIN DIV COMUNIQUESE CON KBI*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV SERVICIOS*/
+.content-div-5{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	background-color: #323232;
+	padding-left: 5%;
+	float: left;
+}			
+.content-div-5{
+	color: #fff;
+}
+.div-title-services{
+	float: initial;
+}
+.div-container-services{
+	float: left;
+	width: 28%;
+	margin-right: 5%;
+	padding-right: 5%;
+	padding-right: 0%;
+}
+.div-services{
+ 	float: left;
+ 	margin-top: 2%;
+}
+.div-img-services{
+	float: left;
+	width: 20%
+}
+.img-services{
+	width: 100%;
+	height: 100%;
+	padding-top: 30%;
+}
+.div-text-services{
+	float: left;
+	margin-left: 3%;
+	width: 70%;
+	text-align: justify;
+}
+/*FIN DIV SERVICIOS*/
+
+
+
+
+
+
+
+/*DIV DE NOSOTROS PARA USTED*/
+/*Este div comparte información css con el div 5*/
+.content-div-6{
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #5281A1;
+	padding-left: 5%;
+	padding-bottom: 8%;
+	float: left;
+	color: #fff;
+}
+/*DIV DE NOSOTROS PARA USTED*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV DIV FORMULARIO DE COMUNICACION*/
+.from-contact{
+	width: 50%;
+	margin-left: 10%;
+	margin-right: 0%;
+	padding-left: 0%;
+	float: left;
+}
+.form-group{
+	width: 40%;
+	float: left;
+	margin-right: 5%; 
+}
+.button-send-message{
+	width: 100%;
+}
+.btn-send-message{
+	float: initial;
+	width: 85%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.form-group-text-area{
+	width: 85%;
+	float: left;
+}
+.div-contact-information{
+	width: 30%;
+	margin: 0%;
+	float: left;
+}
+/*FIN DIV FORMULARIO DE COMUNICACION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV ABOUT PARTE INFERIOR DE LAS PAGINAS*/
+.div-about{
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: -5%;
+}
+.title-about{
+	margin-bottom: 5%;
+}
+.div-list-about{
+	float: left;
+	width: 25%;
+}
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+.div-list-about-photos{
+	float: left;
+	width: 25%;
+}
+.div-list-about-photos ul{
+	list-style: none;
+	text-decoration: none;
+}
+.div-list-about-photos li{
+	list-style: none;
+	text-decoration: none;
+
+}
+.div-list-about-photos a{
+	list-style: none;
+	text-decoration: none;
+}
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.down-bar-about-items{
+	width: 8%;
+	height: 20px;
+	margin-left: 2%; 
+	margin-top: 2%;
+	float: left;
+}
+.down-bar-about-items li{
+	list-style: none;
+	color: #000;
+}
+.down-bar-about-items a{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+.down-bar-about-idiom{
+	width: 20%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+.down-bar-about-idiom li{
+	list-style: none;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 22%;
+	margin-left: -5%;
+	margin-top: 1.5%;
+}
+.img-sponsors{
+	width: 50%;
+	height: 30%;
+	margin: 5%;
+}
+/*FIN DIV ABOUT*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+
+
+/*DIV SLIDER RESPONSIVE*/
+.content-div-slider{
+	height: 594px;
+}
+/*FIN DIV SLIDER RESPONSIVE*/
+
+/*BUTTON GO UP*/
+.go-up {
+	padding: 0px;
+	bottom: 15px;
+	right: 10px;
+}
+/*FIN BUTTON GO UP*/
+
+/*DIV MÓDULOS RESPONSIVE*/
+.content-div-1{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+.col-xs-3{
+	float: left;
+	width: 98%;
+	height: 100%;
+}
+/*FIN DIV MÓDULOS RESPONSIVE*/
+
+/*DIV COMUNIQUESE RESPONSIVE*/
+.content-div-4{
+	width: 100%;
+	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-right: 0%;
+	float: left;
+}
+.sub-content-div-4{
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.button-img-contact{
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	float: left;
+}
+.div-network{
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+	padding-left: 6%;
+	padding-right: 4%;
+}
+.buttons-network{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: -3%;
+	margin-bottom: 5%;
+}
+/*FIN DIV COMUNIQUESE RESPONSIVE*/
+
+
+/*DIV SERVICIOS Y PARA USTED RESPONSIVE*/
+.content-div-5{
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #323232;
+	float: left;
+	color: #fff;
+}			
+.div-title-services{
+	float: initial;
+}
+.div-container-services{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-right: 5%;
+}
+/*FIN DIV SERVICIOS Y PARA USTED RESPONSIVE*/
+
+
+/*DIV FORM RESPONSIVE*/
+.from-contact{
+	width: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	float: left;
+}
+.form-group{
+	width: 94%;
+	float: left;
+	margin-right: 5%; 
+}
+.button-send-message{
+	width: 100%;
+}
+.btn-send-message{
+	float: initial;
+	width: 94%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.form-group-text-area{
+	width: 94%;
+	float: left;
+}
+.div-contact-information{
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	float: left;
+}
+/*FIN DIV FORM RESPONSIVE*/
+
+
+
+
+/*DIV ABOUT RESPONSIVE*/
+.div-about{
+	width: 100%;
+	height: 1500px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.title-about{
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.div-list-about{
+	float: left;
+	width: 80%;
+	margin-right: 0%;
+}
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+.div-list-about-photos{
+	float: initial;
+	width: 50%;
+	margin-bottom: 7%;
+}
+.div-list-about-photos a{
+	list-style: none;
+}
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.down-bar-about-items{
+	width: 25%;
+	height: 10px;
+	margin-left: 2%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 3%; 
+	float: left;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+.img-sponsors{
+	width: 100%;
+	height: 90%;
+	margin: 0%;
+}
+/*FIN DIV ABOUT RESPONSIVE*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+
+
+/*DIV ABOUT RESPONSIVE*/
+.div-about{
+	width: 100%;
+	height: 1500px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.title-about{
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.div-list-about{
+	float: left;
+	width: 80%;
+	margin-right: 0%;
+}
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+.div-list-about-photos{
+	float: initial;
+	width: 50%;
+	margin-bottom: 7%;
+}
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.down-bar-about-items{
+	width: 25%;
+	height: 10px;
+	margin-left: 2%;
+	margin-right: 5%;  
+	margin-top: 2%;
+	margin-bottom: 3%; 
+	float: left;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+.img-sponsors{
+	width: 100%;
+	height: 90%;
+	margin: 0%;
+}
+/*FIN DIV ABOUT RESPONSIVE*/
+}
+
+
+/*CONTROL NAVBAR COLLAPSE*/
+@media (max-width: 991px) {
+.navbar-header {
+    float: none;
+}
+.navbar-left,.navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+   	border-top: 1px solid transparent;
+   	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  .collapse.in{
+      display:block !important;
+}
+}
+/*CONTROL NAVBAR COLLAPSE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
