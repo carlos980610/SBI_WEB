@@ -1,3 +1,83 @@
 body{
     background-color: #858585;
 }
+
+
+
+
+
+/*DIV HAMBURGER FOR OPEN MENU*/
+.img-action-categories{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #858585;
+	padding: 2%;
+	transition: all 0.8s;
+	margin-top: 0%;
+
+}
+.img-hamburger-categories{
+	position: fixed;
+	cursor: pointer;
+	font-size: 30px;
+	width: 30px;
+	padding-top: 1%;
+	margin-top: 5%;
+	margin-left: -1%;
+}
+.open{
+	transform: translateX(50%);
+	width: 28%;
+	margin-top: 6%;
+	background-color: transparent;
+}
+/*FIN DIV HAMBURGER FOR OPEN MENU*/
+
+
+
+
+
+
+
+/*DIV SLIDER DE CATEGORIAS*/
+.sidebar-categories{
+	position: fixed;
+	margin-top: 4%;
+	padding-top: 2.5%;
+	width: 15%;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	float: left;
+}
+.sidebar-categories h3{
+	text-align: center;
+	margin: 0;
+	padding: 10px;	
+	border-color: #2a2a2a;
+	transition: 0.3s;
+}
+.sidebar-categories ul{
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+.sidebar-categories li{
+	cursor: pointer;
+	border: 1px solid #2a2a2a;
+	list-style: none;
+}
+.sidebar-categories li:hover{
+	background: #666666;
+	border-left:  10px solid #EEE;
+	transition: border 0.3s;
+}
+.sidebar-categories a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+/*FIN DIV SLIDER DE CATEGORIAS*/
