@@ -1,0 +1,45 @@
+body{
+	background-color: #aaa;
+}
+.navbar{
+	padding-left: 10%;
+	background-color: #fff;
+} 
+.content-div-0{
+	width: 100%;
+	background: #fff;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 50px;
+}  
+.form-group{
+	float: inherit;
+}
+.select-product{
+	float: left;	
+	margin-right: 2%;
+}
+.div-select-product{
+	width: 40%;
+}
+.form{
+	padding-bottom: 5%;
+}
+
+
+
+
+
+.label{
+	font-size: 100%;
+	color: #000;
+}
+.label-product{
+	color: #FF0000;
+}
+.cmb-select-product{
+ 	width: 100%; 
+}
+
+
+

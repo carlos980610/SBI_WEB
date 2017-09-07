@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KBI - Cash</title>
+	<link rel="stylesheet" type="text/css" href="boot/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="cash.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Caja</a>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#">Inventario</a>
+				</li>
+				<li class="active">
+					<a href="#">Pagos</a>
+				</li>
+				<li class="active">
+					<a href="#">Registros</a>
+				</li>
+				<li>
+					<a href="#">Problemas</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content-div-0">
+  		<form action="" method="POST" role="form" class="form">
+  			<div class="form-group">
+  				<legend>Productos.</legend>
+  			</div>
+  			<div class="form-group">
+  				<div class="form-group select-product div-select-product">
+  					<select class="form-control cmb-select-product">
+  						<option value="">Camisa</option>
+  						<option value="">Pantalon</option>
+  						<option value="">Zapatos</option>
+  						<option value="">Arroz</option>
+
+  					</select>
+  				</div>
+  				<div class="form-group select-product">
+  					<input type="text" class="form-control" id="" placeholder="Buscar producto">
+  				</div>
+  				<div class="form-group select-product">
+  					<button type="button" class="btn btn-primary">Buscar</button>
+  					<button type="submit" class="btn btn-success">Ingresar</button>
+  					<button type="button" class="btn btn-warning">Información</button>
+  					<button type="button" class="btn btn-danger">No encuentro el producto</button>
+  				</div>
+  			</div>	
+  		</form>
+  		<form action="" method="POST" role="form" class="form">
+  			<div class="form-group">
+  				<legend>Precio.</legend>
+  			</div>
+  			<div class="form-group">
+  				<div class="form-group select-product">
+  					<span class="label label-product">Producto:</span>
+  					<span class="label">Supercalifragilisticoespiralidoso</span>
+  				</div>
+  				<div class="form-group select-product">
+  					<input type="number" class="form-control" min="1" max="10" required="required">
+  				</div>
+  				<div class="form-group select-product">
+  					<input type="text" class="form-control" id="" placeholder="Precio">
+  				</div>
+  				<div class="form-group select-product">
+  					<button type="submit" class="btn btn-success">Añadir</button>
+  				</div>
+  			</div>	
+  		</form>
+
+
+  		<form action="" method="POST" role="form" class="form">
+  			<div class="form-group">
+  				<legend>Pago</legend>
+  			</div>
+  			<div class="form-group">
+  				<div class="form-group select-product">
+  					<button type="button" class="btn btn-primary">Efecivo</button>
+  					<button type="button" class="btn btn-success">Tarjeta</button>
+  					<button type="button" class="btn btn-default">Otro medio</button>
+  				</div>
+  				<div class="form-group select-product">
+  					<span class="label">Estado del datáfono:</span>
+  					<span class="label">Bien</span>
+  					<span class="label">Mal</span>
+
+  				</div>
+  				<div class="form-group select-product">
+  					<input type="text" class="form-control" id="" placeholder="Precio">
+  				</div>
+  				<div class="form-group select-product">
+  					<button type="submit" class="btn btn-success">Añadir</button>
+  				</div>
+  			</div>	
+  		</form>
+  	</div>
+
+
+</body>
+</html>

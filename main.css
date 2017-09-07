@@ -1,0 +1,863 @@
+body{
+	background-color: #fff;
+}
+.a{
+	display: none;
+}
+
+
+
+
+
+/*DIV NAVBAR*/
+.navbar{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px;
+	border-bottom: solid 6px #1471CE; 
+	font-size: 17px;
+	margin-bottom: 0%;
+}
+.navbar li{
+	cursor: pointer;
+}
+.navbar li:hover a:hover{
+	color: #000;
+	background-color: #ddd;
+	transition-duration: 0.5s;
+}
+.img-logo{
+	width: 60px;
+	height: 50px;
+}
+/*FIN DIV NAVBAR*/
+
+
+
+
+
+
+
+
+
+
+
+
+.go-up {
+	display: none;
+	padding: 8px;
+	background: transparent;
+	font-size: 40px;
+	color: #aaa;
+	cursor: pointer;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+.go-up:hover {
+	color: #555;
+	transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glyphicon-user{
+	font-size: 30px;
+	color: #777;
+	margin-top: 5%;
+}
+
+
+.control-button-collapse{
+ 	background-color:#fff;
+ 	margin-left: 80%;
+ 	position: relative;
+ 	z-index: 99;
+ 	font-size: 20px;
+ 	width: 10%;
+}
+.control-button-collapse a{
+	color: #000;
+	background-color: transparent;
+}
+.control-button-collapse a:hover{
+	background-color: #fff;
+}
+
+
+
+.control-button-collapse a:hover > li{
+	display: block;
+	position: relative;
+}
+
+
+
+.ul-first{
+	list-style: none;
+	display: block;
+	position: relative;
+}
+.ul-first li:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+.ul-first a:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
+.ul-second{
+	list-style: none;
+}
+.ul-second li{
+	background-color: #fff;
+}
+.ul-second li:hover{
+	background-color: #ddd;
+	text-decoration: none;
+}
+.ul-second a{
+	background-color: #ddd;
+}
+.ul-second a:hover{
+	background-color: #ddd;
+	text-decoration: none;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV SLIDER*/
+.content-div-slider{
+	height: 590px;
+}
+.div-slider-social-network{
+	width: 0%;
+	float: left;
+}
+.icon-slider-social-network{
+	width: 15px;
+	height: 15px;
+}
+/*FIN DIV SLIDER*/
+/*
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation: change 9s infinite alternate;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+	height: 600px;
+	
+}
+@keyframes change {
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	35%{margin-left: -100%;}
+	65%{margin-left: -100%;}
+
+	80%{margin-left: -200%;}
+	100%{margin-left: -200%;}	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-div-0{
+	width: 100%;
+	background-color: #fff;
+	float: left;
+	padding-bottom: 3%;
+}
+.title-services{
+	margin-bottom: 3%;
+}
+.text-services-description{
+	width: 30%;
+	margin-left: 15%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	float: left;
+	text-align: justify;	
+}
+.buttons-services-description{
+	float: left;
+	margin-right: 1%;
+	width: 100px;
+}
+.text-return-services{
+	float: left;
+}
+.video-bigdata-description{
+	width: 40%;
+	height: 300px; 
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-div-1{
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+}
+.col-xs-3{
+	float: left;
+}
+.thumbnail{
+	background-color: #fff;
+	border: solid 1px #000;
+	border-radius: 0px;
+	padding-top: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 5%;
+	height: 350px;
+}
+.text-into-thumbnail{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+.div-button-modules{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.div-content-img{
+	width: 100%;
+	height: 50%;
+}
+.img-modules{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.content-div-2{
+	width: 100%;
+	background-image: url(http://www.scale.fund/uploads/8/3/0/1/83019278/big-data_orig.jpg);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-2{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	background-color: #fff;
+	background: linear-gradient(to right, #fff, opacity:;) ;
+}
+.text-analisis-description{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+	text-align: justify;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-div-4{
+	width: 100%;
+	background-image: url(http://www.olmogas.com/wp-content/uploads/2014/06/contacto1.jpg);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding-right: 10%;
+	float: left;
+}
+.sub-content-div-4{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	padding-left: 10%;
+}
+.div-network{
+	width: 40%;
+	float: right;
+	margin-top: 32%;
+}
+.button-img-contact{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	float: left;
+}
+.buttons-network{
+	width: 20%;
+	margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV SERVICIOS*/
+.content-div-5{
+	width: 100%;
+	margin-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	background-color: #323232;
+	padding-left: 5%;
+	float: left;
+}			
+.content-div-5{
+	color: #fff;
+}
+.div-title-services{
+	float: initial;
+}
+.div-container-services{
+	float: left;
+	width: 28%;
+	margin-right: 5%;
+	padding-right: 5%;
+	padding-right: 0%;
+}
+.div-services{
+ 	float: left;
+ 	margin-top: 2%;
+}
+.div-img-services{
+	float: left;
+	width: 20%
+}
+.img-services{
+	width: 100%;
+	height: 100%;
+	padding-top: 30%;
+}
+.div-text-services{
+	float: left;
+	margin-left: 3%;
+	width: 70%;
+	text-align: justify;
+}
+/*FIN DIV SERVICIOS*/
+
+
+/*DIV DE NOSOTROS PARA USTED*/
+/*Este div comparte información css con el div 5*/
+.content-div-6{
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #5281A1;
+	padding-left: 5%;
+	padding-bottom: 8%;
+	float: left;
+	color: #fff;
+}
+/*DIV DE NOSOTROS PARA USTED*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.from-contact{
+	width: 50%;
+	margin-left: 10%;
+	margin-right: 0%;
+	padding-left: 0%;
+	float: left;
+}
+.form-group{
+	width: 40%;
+	float: left;
+	margin-right: 5%; 
+}
+.button-send-message{
+	width: 100%;
+}
+.btn-send-message{
+	float: initial;
+	width: 85%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.form-group-text-area{
+	width: 85%;
+	float: left;
+}
+.div-contact-information{
+	width: 30%;
+	margin: 0%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-about{
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: -5%;
+}
+.title-about{
+	margin-bottom: 5%;
+}
+.div-list-about{
+	float: left;
+	width: 25%;
+}
+
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+
+
+
+
+.div-down-bar-about{
+	width: 90%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+
+
+.down-bar-about-items{
+	width: 8%;
+	height: 20px;
+	margin-left: 2%; 
+	margin-top: 2%;
+	float: left;
+}
+.down-bar-about-items li{
+	list-style: none;
+	color: #000;
+}
+.down-bar-about-items a{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+.down-bar-about-idiom{
+	width: 20%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+.down-bar-about-idiom li{
+	list-style: none;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 22%;
+	margin-left: -5%;
+	margin-top: 1.5%;
+}
+
+
+
+.img-sponsors{
+	width: 50%;
+	height: 30%;
+	margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+/*BUTTON GO UP*/
+.go-up {
+	padding: 0px;
+	bottom: 15px;
+	right: 10px;
+}
+/*FIN BUTTON GO UP*/
+ 	
+.content-div-0{
+	width: 100%;
+	background: #fff;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+}
+.content-div-1{
+	width: 100%;
+	background: #ddd;
+	border-color: #ddd;
+	border-style: solid;
+	border-width:1px;
+}
+.content-div-a{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	float: left;
+}
+.img-div-bi{
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width: 90%;
+	height: 90%;
+}
+.form-comu-we{
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 5%;
+	float: initial;
+}
+.social-network{
+	align-content: left;
+	float: left;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+/*DIV SERVICIOS Y PARA USTED RESPONSIVE*/
+.content-div-5{
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #323232;
+	float: left;
+	color: #fff;
+}			
+.div-title-services{
+	float: initial;
+}
+.div-container-services{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-right: 5%;
+}
+/*FIN DIV SERVICIOS Y PARA USTED RESPONSIVE*/
+
+
+
+
+
+/*DIV ABOUT RESPONSIVE*/
+.div-about{
+	width: 100%;
+	height: 1100px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.title-about{
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.div-list-about{
+	float: left;
+	width: 80%;
+	margin-right: 0%;
+}
+.div-list-about ul{
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.div-list-about li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	color: #323232;
+}
+.div-list-about a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #323232;
+}
+.div-list-about-photos{
+	float: initial;
+	width: 50%;
+	margin-bottom: 7%;
+}
+.div-down-bar-about{
+	width: 100%;
+	height: 1px;
+	float: left;
+	border-top: solid 2px #000;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.down-bar-about-items{
+	width: 25%;
+	height: 10px;
+	margin-left: 2%;
+	margin-right: 5%;  
+	margin-top: 2%;
+	margin-bottom: 3%; 
+	float: left;
+}
+.down-bar-about-select-idiom{
+	float: left;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+.img-sponsors{
+	width: 50%;
+	height: 90%;
+	margin: 0%;
+}
+/*FIN DIV ABOUT RESPONSIVE*/
+}
+
+@media screen and (min-width: 540px) and (max-width: 1200px){
+.content-div-0{
+	width: 100%;
+	background: #fff;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+}
+.content-div-1{
+	width: 100%;
+	background: #ddd;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 1px;
+}
+.content-div-a{
+	width: 90%;
+	margin-left: 8%;
+	margin-bottom: 2%;
+	float: left;
+}
+.img-div-bi{
+	margin-left: 25%;
+	margin-bottom: 5%;
+	width: 50%;
+	height: 50%;
+}	
+.form-comu-we{
+	margin-left: 8%;
+	width: 80%;
+	margin-bottom: 5%;
+	clear: left;
+}
+.social-network{
+	align-content: left;
+	float: left;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+.btn-sn{
+	width: 180%;
+	padding: 15px;
+}
+.img-div-pa{
+	width: 20%;
+	height: 10%;
+	margin-left: 8%;
+	margin-bottom: 15%;
+	margin-right: 4%;
+}
+}
+
+
+
+
+
+
+
+
